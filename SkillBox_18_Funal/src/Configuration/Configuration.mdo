@@ -40,4 +40,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <constants>Constant.Константа</constants>
+  <documents>Document.РасходнаяНакладная</documents>
 </mdclass:Configuration>

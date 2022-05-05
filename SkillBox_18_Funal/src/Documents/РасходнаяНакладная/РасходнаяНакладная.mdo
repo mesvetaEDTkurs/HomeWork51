@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abf5bab-2246-484d-9693-69d90fe815e0">
+  <producedTypes>
+    <objectType typeId="bc4bed82-0fef-4c46-8ae9-7ef45b4b62c5" valueTypeId="3c8e6352-7a8d-4cdc-879a-b4efcef587c9"/>
+    <refType typeId="6b322ccf-d316-4716-96dd-055ed4394a4a" valueTypeId="384a03e5-c723-4ce4-8124-59397a3a671a"/>
+    <selectionType typeId="280baf66-2451-49e0-86e6-d9da4680c2b1" valueTypeId="e5d1b8b3-1f7b-4fa7-b837-984e7db62bad"/>
+    <listType typeId="9463974a-9b9b-407f-937f-e1df8ee77bc5" valueTypeId="2e883741-4e77-4ace-8ff1-f977a686abd1"/>
+    <managerType typeId="f1641828-bf0d-4747-b9e5-83167913a6fb" valueTypeId="fbcec272-5ed0-48a4-8a24-82071c8ec046"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходнаяНакладная.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="35cda788-2c0a-44e7-a5a0-36b78b44e2bd">
+    <producedTypes>
+      <objectType typeId="7a45750d-eb4e-4f41-9fa0-0c5d8d94c674" valueTypeId="8dd186ab-5a05-4c1d-bb2e-10680e8e1b2d"/>
+      <rowType typeId="29efbfab-99da-4b91-8a8b-1c74f11c92ff" valueTypeId="09129fe4-1e96-4c1e-874c-bf7e665fc419"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Document>
