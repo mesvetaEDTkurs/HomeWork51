@@ -40,5 +40,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <constants>Constant.Константа</constants>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
 </mdclass:Configuration>
