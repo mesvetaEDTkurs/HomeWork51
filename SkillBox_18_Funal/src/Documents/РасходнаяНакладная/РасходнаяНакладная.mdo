@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abf5bab-2246-484d-9693-69d90fe815e0">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abf5bab-2246-484d-9693-69d90fe815e0">
   <producedTypes>
     <objectType typeId="bc4bed82-0fef-4c46-8ae9-7ef45b4b62c5" valueTypeId="3c8e6352-7a8d-4cdc-879a-b4efcef587c9"/>
     <refType typeId="6b322ccf-d316-4716-96dd-055ed4394a4a" valueTypeId="384a03e5-c723-4ce4-8124-59397a3a671a"/>
@@ -35,5 +35,37 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <attributes uuid="e6c3eb40-166b-4453-afaf-321623fbac7c">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="98503c69-184c-4f6a-bae7-6a3a7daec451">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
 </mdclass:Document>
