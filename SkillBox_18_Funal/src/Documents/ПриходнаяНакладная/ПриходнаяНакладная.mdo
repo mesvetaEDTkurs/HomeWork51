@@ -23,8 +23,18 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="7713f93f-547f-4f8e-8e09-bb6b1b3e7d9a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="2c0845f9-e1d1-4a46-8926-a43f6cc52445">
     <producedTypes>
       <objectType typeId="f0b806bc-8f68-456c-b4c7-a7acff5b367a" valueTypeId="5d18ec3e-edef-4800-a192-7edc210ef0b8"/>
@@ -54,6 +64,24 @@
       <synonym>
         <key>ru</key>
         <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab517341-a610-424f-b4c5-04f5855abfa1">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
       </synonym>
       <type>
         <types>Number</types>
